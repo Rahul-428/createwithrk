@@ -1,0 +1,384 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*  */
+
+.main-head {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 20px;
+    padding: 0;
+    text-transform: capitalize;
+    position: relative;
+    padding: 0px 0 20px;
+}
+
+.main-head::before,
+.main-head::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.main-head::before {
+    width: 25%;
+    background: #f2f2f2;
+}
+
+.main-head::after {
+    width: 32px;
+    background: #e73700;
+}
+
+.main-btn a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: #FD853A;
+    padding: 15px;
+    width: 180px;
+    display: block;
+    text-align: center;
+    border-radius: 40px;
+    transition: all 300ms linear;
+}
+
+.main-btn a:hover {
+    background: none;
+    color: #FD853A;
+    border: 2px solid #FD853A;
+}
+
+.main-btn2 a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FD853A;
+    border: 2px solid #FD853A;
+    padding: 15px;
+    width: 180px;
+    display: block;
+    text-align: center;
+    border-radius: 40px;
+    transition: all 300ms linear;
+}
+
+.main-btn2 a:hover {
+    background: none;
+    color: #fff;
+    background: #FD853A;
+}
+
+/* Common Css Ends */
+
+/* Home Slider Start */
+.home-slider {
+    padding: 40px 0 0;
+    position: relative;
+}
+
+.home-slider h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.home-slider .sld-text p {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    width: 120px;
+    margin: 0 auto 20px;
+}
+
+.home-slider h1 span {
+    color: #feb273;
+}
+
+.home-slider .abt-me {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+}
+
+.home-slider .sld-img {
+    text-align: center;
+    background: url(../images/elips.png) center bottom;
+    background-repeat: no-repeat;
+    background-size: 630px;
+}
+
+.home-slider .sld-img img {
+    max-width: 100%;
+    width: 600px;
+    text-align: center;
+}
+
+.sld-btn {
+    position: relative;
+    margin: 20px 50px;
+}
+
+/* Home Slider End */
+
+/* Home Service Start */
+.home-service {
+    position: relative;
+    padding: 80px 0;
+    background: #fffced;
+}
+
+.home-service .main-btn {
+    float: right;
+}
+
+/* Home Service End */
+
+.work-exp {
+    position: relative;
+    padding: 80px 0;
+}
+
+.work-exp .line-title {
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.exp-box {
+    position: relative;
+    margin: 0 0 50px;
+}
+
+.exp-box h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+}
+
+.work-exp .line-title {
+    text-align: center;
+}
+
+.work-exp .line-title::after {
+    left: 50%;
+}
+
+/*  */
+
+/* Portfolio Sec Start */
+.portfolio-sec {
+    position: relative;
+    padding: 80px 0;
+    background: #fffced;
+}
+
+.portfolio-sec .main-btn {
+    float: right;
+}
+
+/* Portfolio Sec End */
+
+/* Why Me Starts */
+.why-me {
+    position: relative;
+    padding: 80px 0;
+}
+
+.why-img img {
+    max-width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.why-me p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #272727;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.why-me .stats {
+    position: relative;
+    display: block;
+    padding: 40px 20px;
+    border: 1px solid #FD853A;
+    background: #fff;
+    margin: 30px 0 0;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: #505050;
+}
+
+.why-me .stats h4 {
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.why-me .stats p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #272727;
+    margin: 0;
+}
+
+.why-me .main-btn {
+    margin-top: 30px;
+}
+
+/* Why Me Ends */
+
+/* Footer Start */
+footer {
+    position: relative;
+    background: #272727;
+    border-radius: 20px 20px 0 0;
+}
+
+.footer-top {
+    padding: 40px 0;
+    border-bottom: 1px solid #505050;
+}
+
+.ftr-top-head h3 {
+    font-size: 36px;
+    line-height: 46px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer-top .main-btn {
+    float: right;
+}
+
+.footer-middle {
+    padding: 40px 0;
+}
+
+.ftr-logo img {
+    display: block;
+    max-width: 100%;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.ftr-desc p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    text-align: justify;
+    padding-right: 60px;
+}
+
+.footer-middle {
+    border-bottom: 1px solid #505050;
+    padding: 40px 0;
+}
+
+.footer-middle h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #fd853a;
+}
+
+.ftr-links nav {
+    margin-left: 40px;
+}
+
+.ftr-links li {
+    margin: 15px 0;
+}
+
+.ftr-links li a {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.ftr-links li a:hover {
+    color: #fd853a;
+}
+
+.ftr-links p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer-bottom {
+    padding: 40px 0;
+    padding-bottom: 10px;
+}
+
+.copy {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+
+p.copy:nth-child(2) {
+    float: right;
+}
+
+p.copy:nth-child(1) {
+    float: left;
+}
+
+.copy span {
+    color: #FD853A;
+}
+
+/* Footer End */

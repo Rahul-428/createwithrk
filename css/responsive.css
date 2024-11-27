@@ -1,0 +1,470 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /*  */
+    .home-slider .abt-me {
+        font-size: 14px;
+    }
+
+    .home-slider h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .home-slider .sld-img {
+        background-size: 455px;
+    }
+
+    .sld-btn {
+        margin: 20px 0px;
+    }
+
+    .main-btn a {
+        font-size: 14px;
+        width: 150px;
+    }
+
+    .main-btn2 a {
+        font-size: 14px;
+        width: 150px;
+    }
+
+    .main-head {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0px 0 10px;
+    }
+
+    .main-head::before {
+        width: 30%;
+    }
+
+    .home-service {
+        padding: 40px 0;
+    }
+
+    .work-exp {
+        padding: 40px 0;
+    }
+
+    .work-exp .main-head::before {
+        width: 25%;
+    }
+
+    .exp-box h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .exp-box {
+        margin: 0 0 30px;
+    }
+
+    .portfolio-sec {
+        padding: 40px 0;
+    }
+
+    .portfolio-sec .main-head {
+        margin-bottom: 40px;
+    }
+
+    .why-me {
+        padding: 40px 0;
+    }
+
+    .why-me p {
+        font-size: 14px;
+    }
+
+    .why-me .stats {
+        padding: 20px 20px;
+    }
+
+    .footer-top {
+        padding: 30px 0;
+    }
+
+    .ftr-top-head h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .footer-middle {
+        padding: 30px 0;
+    }
+
+    .ftr-logo img {
+        width: 100px;
+    }
+
+    .ftr-desc p {
+        padding-right: 30px;
+    }
+
+    .ftr-links li {
+        margin: 10px 0;
+    }
+
+    .footer-bottom {
+        padding: 20px 0;
+        padding-bottom: 20px;
+    }
+
+    /*  */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /*  */
+    .home-slider h1 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .home-slider {
+        padding: 30px 0 0;
+    }
+
+    .home-slider .abt-me {
+        margin-top: 0px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .sld-btn {
+        margin: 20px 0px;
+    }
+
+    .main-btn a {
+        font-size: 14px;
+        padding: 13px;
+        width: 150px;
+    }
+
+    .main-btn2 a {
+        font-size: 14px;
+        padding: 13px;
+        width: 150px;
+    }
+
+    .home-slider .sld-img {
+        background-size: 330px;
+    }
+
+    /*  */
+    .main-head {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0px 0 10px;
+    }
+
+    .home-service {
+        padding: 40px 0;
+    }
+
+    .main-head::before {
+        width: 45%;
+    }
+
+    /*  */
+
+    .work-exp {
+        padding: 40px 0 20px;
+    }
+
+    .exp-box h3 {
+        font-size: 20px;
+    }
+
+    .exp-box {
+        margin: 0 0 30px;
+    }
+
+    .work-exp .main-head::before {
+
+        width: 35%;
+    }
+
+    .slick-slider {
+        margin-top: 10px;
+    }
+
+    .slider .slide .prf-btn a {
+        width: 100px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /*  */
+
+    .why-me {
+        padding: 40px 0;
+    }
+
+    .why-me p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .why-me .stats {
+        padding: 15px 15px;
+        margin: 20px 0 0;
+        width: 100%;
+    }
+
+    .why-me .stats h4 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .why-me .stats p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .why-me .main-btn {
+        margin-top: 20px;
+    }
+
+    /*  */
+
+    .footer-top {
+        padding: 20px 0;
+    }
+
+    .ftr-top-head h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .ftr-logo img {
+        width: 100px;
+    }
+
+    .ftr-desc p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: left;
+        padding-right: 0px;
+    }
+
+    .footer-middle {
+        padding: 30px 0;
+    }
+
+    .footer-middle h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .ftr-links li a {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .ftr-links li {
+        margin: 10px 0;
+    }
+
+    .ftr-links p {
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        padding: 20px 0;
+        padding-bottom: 20px;
+    }
+
+    .copy {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /*  */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    /*  */
+    .home-slider h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .home-slider .abt-me {
+        margin-top: 10px;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .home-slider .sld-img {
+        background-size: 290px;
+    }
+
+    .home-slider {
+        padding: 20px 0 0;
+    }
+
+    /*  */
+    .main-btn a {
+        padding: 10px;
+        font-size: 14px;
+        width: 120px;
+    }
+
+    .home-slider .main-btn a {
+        padding: 12px;
+        width: 150px;
+    }
+
+    .main-btn2 a {
+        font-size: 14px;
+        padding: 12px;
+        width: 150px;
+    }
+
+    .sld-btn {
+        margin: 20px auto;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-head {
+        font-size: 18px;
+        line-height: 25px;
+        margin: 0 0 0px;
+        padding: 0px 0 10px;
+    }
+
+    .main-head::before {
+        width: 100%;
+    }
+
+    /*  */
+
+    .home-service {
+        padding: 40px 0;
+    }
+
+    /*  */
+
+    .work-exp {
+        padding: 40px 0;
+    }
+
+    .exp-box h3 {
+        font-size: 16px;
+    }
+
+    .exp-box {
+        margin: 20px 0 0px;
+    }
+
+    .portfolio-sec {
+        padding: 80px 0;
+        padding: 40px 0;
+    }
+
+    .slick-slider {
+        margin-top: 30px;
+    }
+
+    .slider .slide .prf-btn a {
+        width: 110px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .why-me {
+        padding: 80px 0;
+        padding: 40px 0;
+    }
+
+    .why-me .main-head {
+        margin-top: 20px;
+    }
+
+    .why-me p {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .why-me .stats {
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .why-me .stats h4 {
+        font-size: 20px;
+    }
+
+    .why-me .stats p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .why-me .main-head::before {
+        width: 50%;
+    }
+
+    /*  */
+    .footer-top {
+        padding: 20px 0;
+    }
+
+    .ftr-top-head h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .footer-middle {
+        padding: 20px 0;
+    }
+
+    .ftr-logo img {
+        width: 90px;
+    }
+
+    .ftr-desc p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-right: 0px;
+    }
+
+    .ftr-links nav {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .ftr-links li a {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .ftr-links li {
+        margin: 10px 0;
+    }
+
+    .footer-bottom {
+        padding: 20px 0;
+        padding-bottom: 20px;
+    }
+
+    .ftr-links p {
+        font-size: 14px;
+    }
+
+    .copy {
+        font-size: 12px;
+    }
+
+    p.copy:nth-child(1) {
+        float: none;
+    }
+
+    p.copy:nth-child(2) {
+        float: left;
+    }
+
+    /*  */
+}
